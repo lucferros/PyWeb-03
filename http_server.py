@@ -43,7 +43,7 @@ def resolve_uri(uri):
 
     Both content and mime type should be expressed as bytes
     """
-    root_path = pathlib.Path('./webroot')
+    root_path = pathlib.Path('./')
     resource_path = root_path / uri.lstrip('/')
     if resource_path.is_dir():
         # the resource is a directory, content type is text/html, produce a
