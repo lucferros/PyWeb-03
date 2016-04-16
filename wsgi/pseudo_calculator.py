@@ -31,6 +31,8 @@ def resolve_path(path):
     # examples provide the correct *syntax*, but you should
     # determine the actual values of func and args using the
     # path.
+
+
     func = some_func
     args = ['25', '32']
 
